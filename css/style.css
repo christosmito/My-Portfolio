@@ -1522,7 +1522,7 @@ input[type="text"] {
 
 footer {
   background: #ddd;
-  padding: 0;
+  padding: 2rem;
 }
 
 .curved {
@@ -1574,6 +1574,28 @@ nav {
 
 header {
   height: 80vh;
+}
+
+.flex-container {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container p {
+  margin-top: 5rem;
+}
+
+.social-links {
+  text-align: center;
 }
 
 @media(max-width: 650px) {
